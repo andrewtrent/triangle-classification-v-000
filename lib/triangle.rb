@@ -65,4 +65,3 @@ class Triangle
   end
 
 end
-binding.pry
