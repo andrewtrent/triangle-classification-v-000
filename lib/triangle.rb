@@ -53,14 +53,14 @@ class Triangle
   end
 
   def kind
-    if self.valid? == false
+    if self.valid? == true
+      self.type
+    else
       begin
         raise TriangleError
       rescue TriangleError => error
         puts error.message
       end
-    else
-      self.type
     end
   end
 
