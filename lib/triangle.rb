@@ -16,15 +16,11 @@ class Triangle
 
   def valid?
     @val = nil
-
-    if
-      @sides.each do |side|
-        if (self.sum - side) <= side
-          @val = false
-        end
-      end
+    @sides.each do |side|
+      if side <= 0 
+        @val = true
+      end 
     end
-    @val
   end
 
   class TriangleError < StandardError
