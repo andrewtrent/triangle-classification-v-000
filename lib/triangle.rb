@@ -17,7 +17,7 @@ class Triangle
   def valid?
     @val = nil
 
-    if  
+    if
       @sides.each do |side|
         if (self.sum - side) <= side
           @val = false
