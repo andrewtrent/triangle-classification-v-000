@@ -19,7 +19,7 @@ class Triangle
     @sides.each do |side|
       if side <= 0
         @val = false
-      elsif (self.sum - side)/2 < side
+      elsif (self.sum - side) <= side
         @val = false
       else
         true
@@ -70,4 +70,3 @@ class Triangle
   end
 
 end
-
