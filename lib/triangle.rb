@@ -18,7 +18,7 @@ class Triangle
     @val = nil
     @sides.each do |side|
       if side <= 0
-        @val = true
+        @val = false
       end
     end
     @val
