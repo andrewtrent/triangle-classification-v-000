@@ -56,11 +56,7 @@ class Triangle
     if self.valid? == true
       self.type
     else
-      begin
         raise TriangleError
-      rescue TriangleError => error
-        puts error.message
-      end
     end
   end
 
