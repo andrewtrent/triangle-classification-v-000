@@ -21,6 +21,7 @@ class Triangle
         @val = true
       end
     end
+    @val
   end
 
   class TriangleError < StandardError
