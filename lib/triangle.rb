@@ -15,7 +15,7 @@ class Triangle
   end
 
   def valid?
-    @val = nil
+    @val = true
     @sides.each do |side|
       if side <= 0
         @val = false
