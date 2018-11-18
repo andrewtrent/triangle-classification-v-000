@@ -21,7 +21,6 @@ class Triangle
         @val = false
       elsif (self.sum - side) <= side
         @val = false
-      
       else
         true
       end
