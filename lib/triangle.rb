@@ -21,9 +21,7 @@ class Triangle
       @sides.each do |side|
         if (self.sum - side) <= side
           @val = false
-        elsif side.include <= 0
-          @val = false
-        end
+
       end
     end
     @val
